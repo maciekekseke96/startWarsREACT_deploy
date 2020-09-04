@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/startWarsREACT_deploy/static/css/main.f4b7585b.chunk.css",
+    "main.js": "/startWarsREACT_deploy/static/js/main.17d0caad.chunk.js",
+    "main.js.map": "/startWarsREACT_deploy/static/js/main.17d0caad.chunk.js.map",
+    "runtime-main.js": "/startWarsREACT_deploy/static/js/runtime-main.aebde942.js",
+    "runtime-main.js.map": "/startWarsREACT_deploy/static/js/runtime-main.aebde942.js.map",
+    "static/js/2.603b2ce5.chunk.js": "/startWarsREACT_deploy/static/js/2.603b2ce5.chunk.js",
+    "static/js/2.603b2ce5.chunk.js.map": "/startWarsREACT_deploy/static/js/2.603b2ce5.chunk.js.map",
+    "index.html": "/startWarsREACT_deploy/index.html",
+    "precache-manifest.349e9c15fe37d3ab3455b5d3c46265e3.js": "/startWarsREACT_deploy/precache-manifest.349e9c15fe37d3ab3455b5d3c46265e3.js",
+    "service-worker.js": "/startWarsREACT_deploy/service-worker.js",
+    "static/css/main.f4b7585b.chunk.css.map": "/startWarsREACT_deploy/static/css/main.f4b7585b.chunk.css.map",
+    "static/js/2.603b2ce5.chunk.js.LICENSE.txt": "/startWarsREACT_deploy/static/js/2.603b2ce5.chunk.js.LICENSE.txt",
+    "static/media/Footer.scss": "/startWarsREACT_deploy/static/media/ARROW OPEN.da45c4c0.svg",
+    "static/media/Header.scss": "/startWarsREACT_deploy/static/media/LOGO.79977f05.svg",
+    "static/media/LoadingScreen.scss": "/startWarsREACT_deploy/static/media/loading.3d287be5.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aebde942.js",
+    "static/js/2.603b2ce5.chunk.js",
+    "static/css/main.f4b7585b.chunk.css",
+    "static/js/main.17d0caad.chunk.js"
+  ]
+}
