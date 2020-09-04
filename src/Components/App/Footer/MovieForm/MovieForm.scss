@@ -1,0 +1,99 @@
+@import "./../../../../styles/colors";
+@import "./../../../../styles/fonts";
+
+.movieFormContainer {
+  width: 90%;
+  background-color: white;
+  border-top: 3px solid rgba(110, 108, 108, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .movieForm {
+    width: 80%;
+    padding: 30px 50px 30px 50px;
+    font-family: "Ubuntu", sans-serif;
+    position: relative;
+    label,
+    input {
+      display: block;
+      border: none;
+    }
+    input {
+      width: 100%;
+      @media (min-width: 1000px) {
+        margin-bottom: 40px;
+        font-size: 18px;
+      }
+      margin-bottom: 50px;
+      font-size: 14px;
+      border-bottom: 1px solid $footerFontColor;
+      &:focus {
+        background-color: #fdffe2;
+      }
+    }
+    label {
+      font-weight: 300px;
+      color: $footerFontColor;
+      font-size: 14px;
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    label.specific {
+      position: relative;
+      .error {
+        position: absolute;
+        width: 100%;
+        color: red;
+        border: 1px solid red;
+        top: 50px;
+        padding: 5px;
+      }
+      .planetsFound {
+        position: absolute;
+        width: 100%;
+        top: 50px;
+        border: 1px solid black;
+        z-index: 1;
+        .planet {
+          background-color: white;
+          color: black;
+          &:hover {
+            background-color: rgb(168, 196, 247);
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    .planetsChoosen {
+      margin-bottom: 10px;
+      .planet {
+        @media (min-width: 1000px) {
+          padding: 7px 9px 7px 9px;
+          margin: 0 10px 0 10px;
+          font-size: 16px;
+        }
+        padding: 5px 7px 5px 7px;
+        margin: 0 7px 0 7px;
+        font-size: 14px;
+        display: inline-block;
+        border: 1px solid black;
+        font-family: "Ubuntu", sans-serif;
+        border-radius: 15%;
+        * {
+          display: inline-block;
+          margin: 0 10px 0 10px;
+        }
+        div {
+          &:hover {
+            cursor: pointer;
+          }
+        }
+      }
+    }
+    button {
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}

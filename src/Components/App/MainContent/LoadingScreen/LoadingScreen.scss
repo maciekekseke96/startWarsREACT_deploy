@@ -1,0 +1,26 @@
+.loadingScreen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 540px;
+  height: 330px;
+  margin-top: 15px;
+  .loadingIcon {
+    width: 70px;
+    height: 70px;
+    background-image: url("./../../../../assets/loading.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: loadingAnimation 2s infinite;
+  }
+}
+
+@keyframes loadingAnimation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

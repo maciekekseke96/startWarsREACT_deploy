@@ -1,0 +1,26 @@
+@import "./../../../styles/colors";
+@import "./../../../styles/fonts";
+
+.footer {
+  width: 90%;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Ubuntu", sans-serif;
+  color: $fontColor;
+  font-size: 14px;
+  background-color: white;
+  padding: 10px;
+
+  .wrapBtn {
+    width: 13px;
+    height: 13px;
+    background-image: url("./../../../assets/ARROW\ OPEN.svg");
+    background-size: cover;
+    background-position: center;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
